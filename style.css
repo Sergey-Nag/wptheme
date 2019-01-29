@@ -1,0 +1,55 @@
+/*
+  Theme Name: test Dev
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+
+.navigation {
+  margin: 0 auto;
+}
+
+.menu-item {
+  display: inline;
+  margin: 0 3px;
+}
+
+.menu-item a {
+  background: #ffe000;
+  padding: 2px 15px 3px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: color .2s ease;
+}
+.menu-item a:hover {
+  color: white;
+}
